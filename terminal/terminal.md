@@ -1,7 +1,6 @@
 # Terminal Setup using Wezterm
 
 ## MacOs
-alias ls="eza --icons=always"
 
 ## Install Fonts
 Install Meslo Nerd Font for showing icons in the terminal.
@@ -51,7 +50,58 @@ During wizard setup, select:
  - Enable transient prompt - yes
  - Instant prompt mode - (optional) verbose
 
+## Install Console Utils
 
+Ehanced ls and cd
+```sh
+brew install zsh-autosuggestions
+brew install zsh-syntax-highlighting
 
+# enhanced ls
+brew install eza
+# enchanced cd
+brew install zoxide
 
+echo "source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ~/.zshrc
 
+echo "source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
+```
+
+append to ~/.zshrc
+
+```sh
+# ---- Eza (ls) -----
+alias ls="eza --icons=always"
+# ---- Zoxide (cd) ----
+eval "$(zoxide init zsh)"
+alias cd="z"
+
+```
+
+## Git Console Utils
+
+Install git-delta for better diffs
+
+```sh
+# install git if not already installed
+brew install git
+
+brew install git-delta
+```
+
+Edit ~/.gitconfig and add the following
+
+```config
+[core]
+    editor = code
+    pager = delta
+[interactive]
+    diffFilter = delta --color-only
+[delta]
+    navigate = true
+    side-by-side = true     
+[merge]
+    conflictstyle = diff3
+[diff]
+    colorMoved = default
+```
