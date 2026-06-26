@@ -1,0 +1,45 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = Michael Hunter
+	email = johnny861@gmail.com
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[http]
+	sslVerify = false
+[core]
+	editor = code --wait
+	pager = delta
+[interactive]
+	diffFilter = delta --color-only
+[delta]
+	navigate = true
+	side-by-side = true
+[merge]
+	conflictstyle = diff3
+[diff]
+	colorMoved = default
+[rebase]
+	autosquash = true
+[alias]
+	co  = checkout
+	cob = checkout -b
+	br  = branch
+	brr = branch -r
+	ci  = commit
+	st  = status
+	s   = status --short
+	rv  = remote -v
+	unstage = reset HEAD --
+	last = log -1 HEAD
+	ll = log --stat
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	lgg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --all
+	lga = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --all
+	lol = log --graph --decorate --oneline
+	lola = log --graph --decorate --oneline --all
+	ls = ls-files
+	unstage = reset HEAD --
