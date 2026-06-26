@@ -21,6 +21,31 @@ git lg             # pretty graph log
 git lgg / lga      # pretty graph log, all branches
 git lol / lola     # graph oneline (lola = all branches)
 git ls             # ls-files (tracked files)
+git pr             # push current branch + open a PR via gh (see below)
+```
+
+## pr alias
+
+`git pr` pushes the current branch and opens a pull request with the GitHub CLI. Args pass straight through to `gh pr create`.
+
+```sh
+# alias definition (in .gitconfig)
+# pr = "!f() { git push -u origin HEAD && gh pr create \"$@\"; }; f"
+
+git pr                       # interactive prompts
+git pr --fill                # title/body from commits
+git pr --fill --base main    # target a specific base branch
+git pr --draft --web         # draft PR, open in browser
+```
+
+Requires the GitHub CLI: `brew install gh` then `gh auth login`.
+
+Curl alternative (no `gh`, needs `$GH_TOKEN` and explicit owner/repo):
+
+```sh
+curl -X POST -H "Authorization: Bearer $GH_TOKEN" \
+  https://api.github.com/repos/<owner>/<repo>/pulls \
+  -d '{"title":"My PR","head":"my-branch","base":"main"}'
 ```
 
 ## status & diff
