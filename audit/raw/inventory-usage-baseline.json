@@ -1,0 +1,758 @@
+{
+  "inventory": [
+    {
+      "name": "alpacahq/tap/cli",
+      "kind": "formula",
+      "version": "",
+      "referenced_in": []
+    },
+    {
+      "name": "anaconda",
+      "kind": "cask",
+      "version": "",
+      "referenced_in": []
+    },
+    {
+      "name": "anomalyco/tap/opencode-v2",
+      "kind": "formula",
+      "version": "",
+      "referenced_in": []
+    },
+    {
+      "name": "ast-grep",
+      "kind": "formula",
+      "version": "0.51.1",
+      "referenced_in": []
+    },
+    {
+      "name": "awscli",
+      "kind": "formula",
+      "version": "2.35.15",
+      "referenced_in": []
+    },
+    {
+      "name": "azcopy",
+      "kind": "formula",
+      "version": "10.32.0",
+      "referenced_in": []
+    },
+    {
+      "name": "azure-cli",
+      "kind": "formula",
+      "version": "2.83.0",
+      "referenced_in": []
+    },
+    {
+      "name": "bat",
+      "kind": "formula",
+      "version": "0.26.1",
+      "referenced_in": []
+    },
+    {
+      "name": "bison",
+      "kind": "formula",
+      "version": "3.8.2",
+      "referenced_in": []
+    },
+    {
+      "name": "brew-php-switcher",
+      "kind": "formula",
+      "version": "2.4",
+      "referenced_in": []
+    },
+    {
+      "name": "bruno",
+      "kind": "cask",
+      "version": "",
+      "referenced_in": []
+    },
+    {
+      "name": "ccache",
+      "kind": "formula",
+      "version": "4.12.2",
+      "referenced_in": []
+    },
+    {
+      "name": "cmake",
+      "kind": "formula",
+      "version": "4.2.2",
+      "referenced_in": []
+    },
+    {
+      "name": "cocoapods",
+      "kind": "formula",
+      "version": "1.16.2_1",
+      "referenced_in": []
+    },
+    {
+      "name": "composer",
+      "kind": "formula",
+      "version": "2.9.2",
+      "referenced_in": []
+    },
+    {
+      "name": "cpptoml",
+      "kind": "formula",
+      "version": "0.1.1_1",
+      "referenced_in": []
+    },
+    {
+      "name": "ddev/ddev/ddev",
+      "kind": "formula",
+      "version": "",
+      "referenced_in": []
+    },
+    {
+      "name": "deno",
+      "kind": "formula",
+      "version": "2.6.8",
+      "referenced_in": []
+    },
+    {
+      "name": "dotnet-sdk",
+      "kind": "cask",
+      "version": "",
+      "referenced_in": []
+    },
+    {
+      "name": "dotnet-sdk8",
+      "kind": "cask",
+      "version": "",
+      "referenced_in": []
+    },
+    {
+      "name": "dotnet-sdk8-0-400",
+      "kind": "cask",
+      "version": "",
+      "referenced_in": []
+    },
+    {
+      "name": "exif",
+      "kind": "formula",
+      "version": "0.6.22",
+      "referenced_in": []
+    },
+    {
+      "name": "eza",
+      "kind": "formula",
+      "version": "0.23.4",
+      "referenced_in": [
+        ".zshrc:127"
+      ]
+    },
+    {
+      "name": "font-meslo-lg-nerd-font",
+      "kind": "cask",
+      "version": "",
+      "referenced_in": []
+    },
+    {
+      "name": "fzf",
+      "kind": "formula",
+      "version": "0.67.0",
+      "referenced_in": [
+        ".zshrc:84",
+        ".zshrc:130",
+        ".bashrc:1",
+        ".zsh/zfunctions/selectoptions.zsh:103",
+        ".zsh/zfunctions/selectoptions.zsh:105"
+      ]
+    },
+    {
+      "name": "gcloud-cli",
+      "kind": "cask",
+      "version": "",
+      "referenced_in": []
+    },
+    {
+      "name": "gh",
+      "kind": "formula",
+      "version": "2.101.0",
+      "referenced_in": [
+        ".gitconfig:47"
+      ]
+    },
+    {
+      "name": "git-delta",
+      "kind": "formula",
+      "version": "0.18.2_3",
+      "referenced_in": []
+    },
+    {
+      "name": "go-task",
+      "kind": "formula",
+      "version": "3.37.2",
+      "referenced_in": []
+    },
+    {
+      "name": "google-cloud-sdk",
+      "kind": "cask",
+      "version": "",
+      "referenced_in": [
+        ".zshrc:57",
+        ".zshrc:60"
+      ]
+    },
+    {
+      "name": "googletest",
+      "kind": "formula",
+      "version": "1.18.0",
+      "referenced_in": []
+    },
+    {
+      "name": "gradle",
+      "kind": "formula",
+      "version": "9.1.0",
+      "referenced_in": []
+    },
+    {
+      "name": "httpd",
+      "kind": "formula",
+      "version": "2.4.63",
+      "referenced_in": []
+    },
+    {
+      "name": "httpie",
+      "kind": "formula",
+      "version": "3.2.4_4",
+      "referenced_in": []
+    },
+    {
+      "name": "jenv",
+      "kind": "formula",
+      "version": "0.5.9",
+      "referenced_in": [
+        ".zshrc:64",
+        ".zshrc:65"
+      ]
+    },
+    {
+      "name": "llama-app",
+      "kind": "cask",
+      "version": "",
+      "referenced_in": []
+    },
+    {
+      "name": "llama.cpp",
+      "kind": "formula",
+      "version": "9820",
+      "referenced_in": []
+    },
+    {
+      "name": "llamabarn",
+      "kind": "cask",
+      "version": "",
+      "referenced_in": []
+    },
+    {
+      "name": "mactex",
+      "kind": "cask",
+      "version": "",
+      "referenced_in": []
+    },
+    {
+      "name": "maven",
+      "kind": "formula",
+      "version": "3.9.11",
+      "referenced_in": []
+    },
+    {
+      "name": "microsoft-openjdk@21",
+      "kind": "cask",
+      "version": "",
+      "referenced_in": []
+    },
+    {
+      "name": "mongosh",
+      "kind": "formula",
+      "version": "2.5.9",
+      "referenced_in": []
+    },
+    {
+      "name": "mvfst",
+      "kind": "formula",
+      "version": "2026.07.27.00",
+      "referenced_in": []
+    },
+    {
+      "name": "ninja",
+      "kind": "formula",
+      "version": "1.11.1",
+      "referenced_in": []
+    },
+    {
+      "name": "ollama",
+      "kind": "formula",
+      "version": "0.40.14",
+      "referenced_in": []
+    },
+    {
+      "name": "opencv",
+      "kind": "formula",
+      "version": "4.12.0",
+      "referenced_in": []
+    },
+    {
+      "name": "orbstack",
+      "kind": "cask",
+      "version": "",
+      "referenced_in": [
+        ".zprofile:19"
+      ]
+    },
+    {
+      "name": "pandoc",
+      "kind": "formula",
+      "version": "3.10",
+      "referenced_in": []
+    },
+    {
+      "name": "pgadmin4",
+      "kind": "cask",
+      "version": "",
+      "referenced_in": []
+    },
+    {
+      "name": "php@8.1",
+      "kind": "formula",
+      "version": "8.1.33",
+      "referenced_in": []
+    },
+    {
+      "name": "php@8.4",
+      "kind": "formula",
+      "version": "8.4.16_1",
+      "referenced_in": []
+    },
+    {
+      "name": "pipx",
+      "kind": "formula",
+      "version": "1.7.1_1",
+      "referenced_in": []
+    },
+    {
+      "name": "podman",
+      "kind": "formula",
+      "version": "5.4.2",
+      "referenced_in": []
+    },
+    {
+      "name": "powerlevel10k",
+      "kind": "formula",
+      "version": "1.20.0",
+      "referenced_in": [
+        ".zshrc:78"
+      ]
+    },
+    {
+      "name": "powershell",
+      "kind": "cask",
+      "version": "7.6.0",
+      "referenced_in": []
+    },
+    {
+      "name": "pyenv-virtualenv",
+      "kind": "formula",
+      "version": "1.2.6",
+      "referenced_in": [
+        ".zshrc:21"
+      ]
+    },
+    {
+      "name": "pyqt@5",
+      "kind": "formula",
+      "version": "5.15.10",
+      "referenced_in": []
+    },
+    {
+      "name": "python-pyproject-hooks",
+      "kind": "formula",
+      "version": "1.0.0",
+      "referenced_in": []
+    },
+    {
+      "name": "python-setuptools",
+      "kind": "formula",
+      "version": "84.0.0",
+      "referenced_in": []
+    },
+    {
+      "name": "python-tk@3.11",
+      "kind": "formula",
+      "version": "3.11.13",
+      "referenced_in": []
+    },
+    {
+      "name": "python-tk@3.12",
+      "kind": "formula",
+      "version": "3.12.11",
+      "referenced_in": []
+    },
+    {
+      "name": "qemu",
+      "kind": "formula",
+      "version": "9.2.3",
+      "referenced_in": []
+    },
+    {
+      "name": "rar",
+      "kind": "cask",
+      "version": "",
+      "referenced_in": []
+    },
+    {
+      "name": "rbenv",
+      "kind": "formula",
+      "version": "1.3.2",
+      "referenced_in": []
+    },
+    {
+      "name": "rtk-ai/tap/rtk",
+      "kind": "formula",
+      "version": "",
+      "referenced_in": []
+    },
+    {
+      "name": "ruby-install",
+      "kind": "formula",
+      "version": "0.9.0",
+      "referenced_in": []
+    },
+    {
+      "name": "rust",
+      "kind": "formula",
+      "version": "1.97.1",
+      "referenced_in": []
+    },
+    {
+      "name": "sqlcmd",
+      "kind": "formula",
+      "version": "1.8.0",
+      "referenced_in": []
+    },
+    {
+      "name": "terraform",
+      "kind": "formula",
+      "version": "1.5.7",
+      "referenced_in": []
+    },
+    {
+      "name": "timg",
+      "kind": "formula",
+      "version": "1.6.3",
+      "referenced_in": []
+    },
+    {
+      "name": "tree",
+      "kind": "formula",
+      "version": "2.3.2",
+      "referenced_in": []
+    },
+    {
+      "name": "uv",
+      "kind": "formula",
+      "version": "0.9.26",
+      "referenced_in": []
+    },
+    {
+      "name": "watchman",
+      "kind": "formula",
+      "version": "2026.07.27.00_1",
+      "referenced_in": []
+    },
+    {
+      "name": "wezterm",
+      "kind": "cask",
+      "version": "",
+      "referenced_in": [
+        ".zshrc:9",
+        ".zshrc:132"
+      ]
+    },
+    {
+      "name": "zap",
+      "kind": "cask",
+      "version": "",
+      "referenced_in": []
+    },
+    {
+      "name": "zbar",
+      "kind": "formula",
+      "version": "0.23.93_2",
+      "referenced_in": []
+    },
+    {
+      "name": "zsh-autosuggestions",
+      "kind": "formula",
+      "version": "0.7.1",
+      "referenced_in": [
+        ".zshrc:80"
+      ]
+    },
+    {
+      "name": "zsh-syntax-highlighting",
+      "kind": "formula",
+      "version": "0.8.0",
+      "referenced_in": [
+        ".zshrc:81"
+      ]
+    },
+    {
+      "name": "zulu11",
+      "kind": "cask",
+      "version": "",
+      "referenced_in": []
+    },
+    {
+      "name": "zulu@11",
+      "kind": "cask",
+      "version": "",
+      "referenced_in": []
+    },
+    {
+      "name": "zulu@17",
+      "kind": "cask",
+      "version": "",
+      "referenced_in": []
+    },
+    {
+      "name": "aube",
+      "kind": "mise",
+      "version": "",
+      "referenced_in": []
+    },
+    {
+      "name": "bun",
+      "kind": "mise",
+      "version": "",
+      "referenced_in": [
+        ".zshrc:115",
+        ".zshrc:118"
+      ]
+    },
+    {
+      "name": "npm:aws-cdk",
+      "kind": "mise",
+      "version": "",
+      "referenced_in": []
+    },
+    {
+      "name": "uv",
+      "kind": "mise",
+      "version": "",
+      "referenced_in": []
+    },
+    {
+      "name": "imagesorcery-mcp",
+      "kind": "pipx",
+      "version": "",
+      "referenced_in": []
+    }
+  ],
+  "usage": {
+    "history_file_bytes": 33266,
+    "commands_parsed": 1053,
+    "timestamped": 0,
+    "first": "unknown",
+    "last": "unknown",
+    "top_first_word": [
+      [
+        "ls",
+        102
+      ],
+      [
+        "cd",
+        95
+      ],
+      [
+        "az",
+        93
+      ],
+      [
+        "adb",
+        57
+      ],
+      [
+        "git",
+        55
+      ],
+      [
+        "opencode",
+        51
+      ],
+      [
+        "mise",
+        41
+      ],
+      [
+        "code",
+        35
+      ],
+      [
+        "select-az-dev",
+        32
+      ],
+      [
+        "exit",
+        31
+      ],
+      [
+        "shenv",
+        31
+      ],
+      [
+        "echo",
+        29
+      ],
+      [
+        "source",
+        26
+      ],
+      [
+        "shalias",
+        22
+      ],
+      [
+        "-F",
+        20
+      ],
+      [
+        "curl",
+        17
+      ],
+      [
+        "aws",
+        16
+      ],
+      [
+        "st",
+        16
+      ],
+      [
+        "claude",
+        14
+      ],
+      [
+        "pa",
+        13
+      ],
+      [
+        "which",
+        12
+      ],
+      [
+        "chk",
+        12
+      ],
+      [
+        "7z",
+        10
+      ],
+      [
+        "az-account-list",
+        8
+      ],
+      [
+        "open",
+        7
+      ],
+      [
+        "cat",
+        6
+      ],
+      [
+        "brew",
+        6
+      ],
+      [
+        "copy-bacpac-to-dev",
+        6
+      ],
+      [
+        "npx",
+        6
+      ],
+      [
+        "nvm",
+        6
+      ]
+    ],
+    "tool_counts": {
+      "ls": 102,
+      "cd": 95,
+      "az": 93,
+      "adb": 57,
+      "git": 55,
+      "opencode": 51,
+      "mise": 41,
+      "code": 35,
+      "aws": 16,
+      "cat": 6,
+      "brew": 6,
+      "nvm": 6,
+      "python": 5,
+      "gh": 4,
+      "grep": 3,
+      "docker": 3,
+      "npm": 2,
+      "terraform": 1,
+      "eza": 0,
+      "bat": 0,
+      "rg": 0,
+      "fzf": 0,
+      "podman": 0,
+      "kubectl": 0,
+      "node": 0,
+      "pnpm": 0,
+      "bun": 0,
+      "python3": 0,
+      "uv": 0,
+      "pipx": 0,
+      "pyenv": 0,
+      "jenv": 0,
+      "java": 0,
+      "mvn": 0,
+      "gradle": 0,
+      "dotnet": 0,
+      "go": 0,
+      "cargo": 0,
+      "tree": 0,
+      "find": 0,
+      "fd": 0,
+      "delta": 0,
+      "gcloud": 0,
+      "psql": 0,
+      "mongosh": 0
+    }
+  },
+  "state": {
+    "compdef_available": "1",
+    "histsize": "2000",
+    "savehist": "1000",
+    "histfile": "/Users/michaelhunter/.zsh_history",
+    "options_enabled": [
+      "combiningchars",
+      "interactive",
+      "zle"
+    ],
+    "path_entries": 83,
+    "path_unique": 47,
+    "path_dupes": {
+      "/Users/michaelhunter/.opencode/bin": 2,
+      "/Users/michaelhunter/.local/bin": 5,
+      "/Users/michaelhunter/Library/Android/sdk/platform-tools": 9,
+      "/Users/michaelhunter/cuda-gdb-darwin-12.3/bin": 5,
+      "/Users/michaelhunter/.bun/bin": 2,
+      "/Users/michaelhunter/.jenv/shims": 2,
+      "/Users/michaelhunter/.jenv/bin": 2,
+      "/Users/michaelhunter/projects/software/google-cloud-sdk/bin": 2,
+      "/opt/homebrew/Cellar/pyenv-virtualenv/1.2.6/shims": 2,
+      "/Users/michaelhunter/.pyenv/bin": 2,
+      "/Users/michaelhunter/Library/Android/sdk/emulator": 5,
+      "/Users/michaelhunter/Library/Android/sdk/tools": 5,
+      "/Users/michaelhunter/Library/Android/sdk/tools/bin": 5,
+      "/Users/michaelhunter/.bash-my-aws/bin": 2
+    },
+    "function_count": "1739"
+  }
+}

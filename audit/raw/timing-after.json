@@ -1,0 +1,25 @@
+{
+  "captured": "2026-11-22T17:14:05",
+  "note": "post-remediation: nvm -> mise, jenv -> static JAVA_HOME",
+  "interactive": {
+    "median_ms": 387.5,
+    "mean_ms": 388.4,
+    "min_ms": 365.7,
+    "max_ms": 426.6,
+    "stderr_lines": 8
+  },
+  "login": {
+    "median_ms": 427.8,
+    "mean_ms": 432.7,
+    "min_ms": 413.6,
+    "max_ms": 459.3,
+    "stderr_lines": 8
+  },
+  "clean_nonlogin": {
+    "median_ms": 344.1,
+    "mean_ms": 347.8,
+    "min_ms": 332.6,
+    "max_ms": 377.4,
+    "stderr_lines": 9
+  }
+}

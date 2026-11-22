@@ -1,0 +1,75 @@
+{
+  "path_clean": {
+    "entries": 25,
+    "unique": 25,
+    "dupes": {}
+  },
+  "startup_stderr": [
+    "(anon):setopt:7: can't change option: monitor",
+    "[\u001b[31mERROR\u001b[39m]: gitstatus failed to initialize.",
+    "  Add the following parameter to \u001b[4m~/.zshrc\u001b[24m for extra diagnostics on error:",
+    "    \u001b[1mGITSTATUS_LOG_LEVEL=DEBUG\u001b[0m",
+    "  Restart Zsh to retry gitstatus initialization:",
+    "    \u001b[32m\u001b[4mexec\u001b[24m\u001b[32m zsh\u001b[39m",
+    "(eval):1: can't change option: zle",
+    "(eval):1: can't change option: zle"
+  ],
+  "nonlogin_stderr": [
+    "pyenv: no such command `virtualenv-init'",
+    "(anon):setopt:7: can't change option: monitor",
+    "[\u001b[31mERROR\u001b[39m]: gitstatus failed to initialize.",
+    "  Add the following parameter to ~/.zshrc for extra diagnostics on error:",
+    "    GITSTATUS_LOG_LEVEL=DEBUG",
+    "  Restart Zsh to retry gitstatus initialization:",
+    "    \u001b[32mexec zsh\u001b[39m",
+    "(eval):1: can't change option: zle",
+    "(eval):1: can't change option: zle"
+  ],
+  "syntax": {
+    ".zshrc": {
+      "ok": true,
+      "stderr": ""
+    },
+    ".zshenv": {
+      "ok": true,
+      "stderr": ""
+    },
+    ".zprofile": {
+      "ok": true,
+      "stderr": ""
+    },
+    ".bashrc": {
+      "ok": true,
+      "stderr": ""
+    },
+    ".bash_profile": {
+      "ok": true,
+      "stderr": ""
+    },
+    ".profile": {
+      "ok": true,
+      "stderr": ""
+    },
+    ".zsh/autoload.zsh": {
+      "ok": true,
+      "stderr": ""
+    },
+    ".zsh/zfunctions/aws.zsh": {
+      "ok": true,
+      "stderr": ""
+    },
+    ".zsh/zfunctions/selectoptions.zsh": {
+      "ok": true,
+      "stderr": ""
+    },
+    ".zsh/zfunctions/sg-functions.zsh": {
+      "ok": true,
+      "stderr": ""
+    },
+    ".zsh/zfunctions/shared-bma-functions.zsh": {
+      "ok": true,
+      "stderr": ""
+    }
+  },
+  "secrets": []
+}
