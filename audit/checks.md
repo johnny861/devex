@@ -51,7 +51,7 @@ Note: parse-clean is not the same as correct — the load-order defects in
 | History options | `SHARE_HISTORY`, `EXTENDED_HISTORY`, `HIST_IGNORE_ALL_DUPS`, `HIST_SAVE_NO_DUPS`, `HIST_FIND_NO_DUPS`, `HIST_REDUCE_BLANKS`, `HIST_IGNORE_SPACE` | was: all defaults |
 | `AUTO_PUSHD`, `AUTO_CD`, `EXTENDED_GLOB`, `NO_BEEP` | off | defaults (unchanged) |
 | Aliases | 13 | `ls`, `ll`, `la`, `gitb`, `7z`, `ipinfo`, `shalias`, `shenv`, `sh-bindkey`, `wz-show-keys` |
-| Functions | 1739 | overwhelmingly bash-my-aws |
+| Functions at startup | 1622 | 1441 are completion wrappers; the rest are p10k and fzf internals. No bash-my-aws functions load in zsh. |
 | `core.editor` | `code --wait` | matches 35 `code` invocations |
 
 `HISTSIZE=2000`/`SAVEHIST=1000` with no assignment in any dotfile means some sourced third-party

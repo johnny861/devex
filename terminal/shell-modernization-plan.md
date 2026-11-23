@@ -62,7 +62,7 @@ Full detail and reproduction in [`audit/`](../audit/README.md).
 | Powerlevel10k | **9–35 ms** | not the startup problem |
 | `compinit` | not isolated; ~67 ms residual covers it + plugins | never called by the config; runs from nvm's bash completion |
 | `PATH` entries | **33, 6 duplicated paths (clean shell)**; 82/14 in a used session | `.zshenv` appends 4 Android paths and is sourced twice |
-| Functions defined at startup | 1739 | mostly bash-my-aws + completion system |
+| Functions defined at startup | 1622 | 1441 are completion wrappers; remainder are p10k/fzf internals (non-interactive zsh does not load bash-my-aws functions) |
 | `compdef` available | yes, **but no `compinit` in any dotfile** | loaded incidentally via nvm |
 | History options | none set in dotfiles | no `SHARE_HISTORY`, `EXTENDED_HISTORY`, or `INC_APPEND_HISTORY`; no timestamps in the 33 KB file |
 | `gitstatus` | **fails to initialize** on startup | p10k cannot render git status reliably |

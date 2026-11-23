@@ -75,7 +75,8 @@ that pays off at the *next* audit, not this one.
 
 | Decision | Supported by |
 | --- | --- |
-| Keep eza, fzf, delta, azure-cli, awscli, bash-my-aws + custom zfunctions | direct or aliased use |
+| Keep eza, fzf, delta, azure-cli, awscli, and the custom zsh functions | direct or aliased use |
+| Decide on bash-my-aws | its binaries are on `PATH` but its `aliases` file is not sourced, so its functions never load in zsh |
 | Replace nvm | 691 ms cost vs 6 manual invocations; node already exists in mise |
 | Replace jenv | 338 ms cost vs 0 invocations; version is pinned, not switched |
 | Keep pyenv | `python` resolves through its shims; pin file and venvs in use |
