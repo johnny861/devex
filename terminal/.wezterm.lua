@@ -17,6 +17,7 @@ config.font = wezterm.font("MesloLGS Nerd Font Mono")
 
 -- config.color_scheme = 'AdventureTime'
 -- config.color_scheme = 'GitHub Dark'
+-- config.color_scheme = 'tokyonight_night'
 
 config.colors = {
 	foreground = "#CBE0F0",
@@ -49,6 +50,11 @@ config.keys = {
 
   { mods = "CMD", key = "+", action = act.IncreaseFontSize },
   { mods = "CMD", key = "-", action = act.DecreaseFontSize },  
+	
+	{ mods = "CMD", key = "d", action = act.SplitHorizontal { domain = 'CurrentPaneDomain' } },  
+	{ mods = "CMD|SHIFT", key = "d", action = act.SplitVertical { domain = 'CurrentPaneDomain' } },
+	{ mods = "CMD|SHIFT", key = "Backspace", action = act.SendString 'clear\n' },
+	
 }
 
 
