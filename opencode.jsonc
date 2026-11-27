@@ -1,0 +1,31 @@
+{
+  // Project config for this repo. Merges over ~/.config/opencode/opencode.json(c).
+  "$schema": "https://opencode.ai/config.json",
+
+  // Other config files in this repo are trusted input; webfetch is still useful (zsh,
+  // WezTerm, Android docs) so only credentials and destructive operations are gated.
+  "permissions": [
+    { "action": "read", "resource": "~/.config/secrets.env", "effect": "deny" },
+    { "action": "read", "resource": "~/.aws/credentials", "effect": "deny" },
+    { "action": "read", "resource": "~/.ssh/*", "effect": "deny" },
+
+    // Reading .env files asks (the built-in default already asks; kept explicit because
+    // this repo documents environment handling and a later rule could otherwise widen it).
+    { "action": "read", "resource": "*.env", "effect": "ask" },
+    { "action": "read", "resource": "*.env.example", "effect": "allow" },
+
+    // Destructive shell operations require a decision. Rules are last-match-wins, so these
+    // sit after the built-in "*" allow.
+    { "action": "shell", "resource": "rm -rf *", "effect": "deny" },
+    { "action": "shell", "resource": "aws * delete-*", "effect": "ask" },
+    { "action": "shell", "resource": "aws * terminate-*", "effect": "ask" },
+    { "action": "shell", "resource": "aws s3 rm *", "effect": "ask" },
+    { "action": "shell", "resource": "az * delete *", "effect": "ask" },
+    { "action": "shell", "resource": "sg-rule-remove *", "effect": "ask" },
+    { "action": "shell", "resource": "sg-rule-add *", "effect": "ask" },
+
+    // The audit harness and the config installers are the repo's own tooling.
+    { "action": "shell", "resource": "scripts/audit/*", "effect": "allow" },
+    { "action": "shell", "resource": "terminal/setup.zsh", "effect": "allow" }
+  ]
+}

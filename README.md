@@ -23,6 +23,16 @@ files.
 | [audit/changes.md](audit/changes.md) | Applied changes with before/after numbers and rollback. |
 | [audit/zsh-functions.md](audit/zsh-functions.md) | Review of the shell function library and what was consolidated. |
 | [scripts/audit/run.sh](scripts/audit/run.sh) | Regenerates `audit/raw/*` (startup timing, inventory, checks). |
+| [scripts/audit/drift.sh](scripts/audit/drift.sh) | Compares the repo's config copies with the live files. |
+
+### OpenCode
+
+| File |  |
+| --- | --- |
+| [opencode.jsonc](opencode.jsonc) | Project permissions: deny credential reads, gate destructive AWS/Azure commands. |
+| [.opencode/skills/shell-audit/SKILL.md](.opencode/skills/shell-audit/SKILL.md) | Skill: audit workflow, invariants, measurement rules. |
+| [.opencode/commands/](.opencode/commands) | `/audit`, `/drift`, `/bench`. |
+| [.opencode/agents/shell-reviewer.md](.opencode/agents/shell-reviewer.md) | Read-only subagent for reviewing shell changes. |
 
 ### Config files
 
