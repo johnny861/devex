@@ -34,6 +34,7 @@
     os_icon                 # os identifier
     dir                     # current directory
     vcs                     # git status
+    newline                 # prompt below the status line
     # prompt_char           # prompt symbol
   )
 

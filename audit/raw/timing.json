@@ -1,0 +1,138 @@
+{
+  "full": {
+    "median_ms": 441.3,
+    "mean_ms": 444.8,
+    "min_ms": 425.4,
+    "max_ms": 468.0,
+    "stderr_lines": [
+      "(anon):setopt:7: can't change option: monitor",
+      "[\u001b[31mERROR\u001b[39m]: gitstatus failed to initialize.",
+      "  Add the following parameter to \u001b[4m/var/folders/5t/tntfy2s121s_1kyfxk93h2100000gn/T/shell-audit-bds0wkd4/full/.zshrc\u001b[24m for extra diagnostics on error:",
+      "    \u001b[1mGITSTATUS_LOG_LEVEL=DEBUG\u001b[0m",
+      "  Restart Zsh to retry gitstatus initialization:",
+      "    \u001b[32m\u001b[4mexec\u001b[24m\u001b[32m zsh\u001b[39m"
+    ]
+  },
+  "no-p10k": {
+    "median_ms": 435.1,
+    "mean_ms": 438.4,
+    "min_ms": 421.6,
+    "max_ms": 476.7,
+    "stderr_lines": [
+      "(eval):1: can't change option: zle",
+      "(eval):1: can't change option: zle"
+    ]
+  },
+  "no-nvm": {
+    "median_ms": 441.5,
+    "mean_ms": 444.3,
+    "min_ms": 425.8,
+    "max_ms": 490.2,
+    "stderr_lines": [
+      "(anon):setopt:7: can't change option: monitor",
+      "[\u001b[31mERROR\u001b[39m]: gitstatus failed to initialize.",
+      "  Add the following parameter to \u001b[4m/var/folders/5t/tntfy2s121s_1kyfxk93h2100000gn/T/shell-audit-bds0wkd4/no-nvm/.zshrc\u001b[24m for extra diagnostics on error:",
+      "    \u001b[1mGITSTATUS_LOG_LEVEL=DEBUG\u001b[0m",
+      "  Restart Zsh to retry gitstatus initialization:",
+      "    \u001b[32m\u001b[4mexec\u001b[24m\u001b[32m zsh\u001b[39m"
+    ]
+  },
+  "no-jenv": {
+    "median_ms": 438.2,
+    "mean_ms": 444.2,
+    "min_ms": 425.2,
+    "max_ms": 474.4,
+    "stderr_lines": [
+      "(anon):setopt:7: can't change option: monitor",
+      "[\u001b[31mERROR\u001b[39m]: gitstatus failed to initialize.",
+      "  Add the following parameter to \u001b[4m/var/folders/5t/tntfy2s121s_1kyfxk93h2100000gn/T/shell-audit-bds0wkd4/no-jenv/.zshrc\u001b[24m for extra diagnostics on error:",
+      "    \u001b[1mGITSTATUS_LOG_LEVEL=DEBUG\u001b[0m",
+      "  Restart Zsh to retry gitstatus initialization:",
+      "    \u001b[32m\u001b[4mexec\u001b[24m\u001b[32m zsh\u001b[39m"
+    ]
+  },
+  "no-pyenv": {
+    "median_ms": 147.5,
+    "mean_ms": 177.7,
+    "min_ms": 141.6,
+    "max_ms": 450.5,
+    "stderr_lines": [
+      "(anon):setopt:7: can't change option: monitor",
+      "[\u001b[31mERROR\u001b[39m]: gitstatus failed to initialize.",
+      "  Add the following parameter to \u001b[4m/var/folders/5t/tntfy2s121s_1kyfxk93h2100000gn/T/shell-audit-bds0wkd4/no-pyenv/.zshrc\u001b[24m for extra diagnostics on error:",
+      "    \u001b[1mGITSTATUS_LOG_LEVEL=DEBUG\u001b[0m",
+      "  Restart Zsh to retry gitstatus initialization:",
+      "    \u001b[32m\u001b[4mexec\u001b[24m\u001b[32m zsh\u001b[39m"
+    ]
+  },
+  "no-mise": {
+    "median_ms": 402.4,
+    "mean_ms": 403.5,
+    "min_ms": 379.3,
+    "max_ms": 431.6,
+    "stderr_lines": [
+      "(anon):setopt:7: can't change option: monitor",
+      "[\u001b[31mERROR\u001b[39m]: gitstatus failed to initialize.",
+      "  Add the following parameter to \u001b[4m/var/folders/5t/tntfy2s121s_1kyfxk93h2100000gn/T/shell-audit-bds0wkd4/no-mise/.zshrc\u001b[24m for extra diagnostics on error:",
+      "    \u001b[1mGITSTATUS_LOG_LEVEL=DEBUG\u001b[0m",
+      "  Restart Zsh to retry gitstatus initialization:",
+      "    \u001b[32m\u001b[4mexec\u001b[24m\u001b[32m zsh\u001b[39m"
+    ]
+  },
+  "no-bash-my-aws": {
+    "median_ms": 438.4,
+    "mean_ms": 442.9,
+    "min_ms": 430.8,
+    "max_ms": 470.4,
+    "stderr_lines": [
+      "(anon):setopt:7: can't change option: monitor",
+      "[\u001b[31mERROR\u001b[39m]: gitstatus failed to initialize.",
+      "  Add the following parameter to \u001b[4m/var/folders/5t/tntfy2s121s_1kyfxk93h2100000gn/T/shell-audit-bds0wkd4/no-bash-my-aws/.zshrc\u001b[24m for extra diagnostics on error:",
+      "    \u001b[1mGITSTATUS_LOG_LEVEL=DEBUG\u001b[0m",
+      "  Restart Zsh to retry gitstatus initialization:",
+      "    \u001b[32m\u001b[4mexec\u001b[24m\u001b[32m zsh\u001b[39m"
+    ]
+  },
+  "no-plugins": {
+    "median_ms": 436.9,
+    "mean_ms": 444.8,
+    "min_ms": 423.2,
+    "max_ms": 483.2,
+    "stderr_lines": [
+      "(anon):setopt:7: can't change option: monitor",
+      "[\u001b[31mERROR\u001b[39m]: gitstatus failed to initialize.",
+      "  Add the following parameter to \u001b[4m/var/folders/5t/tntfy2s121s_1kyfxk93h2100000gn/T/shell-audit-bds0wkd4/no-plugins/.zshrc\u001b[24m for extra diagnostics on error:",
+      "    \u001b[1mGITSTATUS_LOG_LEVEL=DEBUG\u001b[0m",
+      "  Restart Zsh to retry gitstatus initialization:",
+      "    \u001b[32m\u001b[4mexec\u001b[24m\u001b[32m zsh\u001b[39m"
+    ]
+  },
+  "no-version-managers": {
+    "median_ms": 105.8,
+    "mean_ms": 107.0,
+    "min_ms": 102.0,
+    "max_ms": 125.4,
+    "stderr_lines": [
+      "(anon):setopt:7: can't change option: monitor",
+      "[\u001b[31mERROR\u001b[39m]: gitstatus failed to initialize.",
+      "  Add the following parameter to \u001b[4m/var/folders/5t/tntfy2s121s_1kyfxk93h2100000gn/T/shell-audit-bds0wkd4/no-version-managers/.zshrc\u001b[24m for extra diagnostics on error:",
+      "    \u001b[1mGITSTATUS_LOG_LEVEL=DEBUG\u001b[0m",
+      "  Restart Zsh to retry gitstatus initialization:",
+      "    \u001b[32m\u001b[4mexec\u001b[24m\u001b[32m zsh\u001b[39m"
+    ]
+  },
+  "empty-zshrc": {
+    "median_ms": 17.5,
+    "mean_ms": 17.7,
+    "min_ms": 15.9,
+    "max_ms": 19.9,
+    "stderr_lines": []
+  },
+  "zsh-f": {
+    "median_ms": 6.2,
+    "mean_ms": 6.3,
+    "min_ms": 5.7,
+    "max_ms": 6.9,
+    "stderr_lines": []
+  }
+}
